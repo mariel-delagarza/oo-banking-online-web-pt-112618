@@ -13,7 +13,7 @@ class BankAccount
   end
 
   def balance
-    self.balance
+    "Your Balance is #{@balance}."
   end
 
 end
