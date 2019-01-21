@@ -1,3 +1,7 @@
 class Transfer
-  # your code here
+  attr_reader :status
+
+  def initialize
+    @status = "pending"
+  end
 end
