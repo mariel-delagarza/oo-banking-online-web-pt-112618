@@ -33,5 +33,8 @@ class Transfer
     end
   end
 
-
+  def reject_transfer
+    self.status = "rejected"
+    "Your transfer is rejected."
+  end 
 end
