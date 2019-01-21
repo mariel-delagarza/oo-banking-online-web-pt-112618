@@ -13,7 +13,7 @@ class BankAccount
   end
 
   def balance
-    "Your Balance is #{@balance}."
+    "Your Balance is #{balance}."
   end
 
   def valid?
